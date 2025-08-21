@@ -1,0 +1,24 @@
+# --- OS / Env ---
+.DS_Store
+.env
+
+# --- Build / Gradle ---
+**/build/
+**/out/
+**/bin/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# --- Logs / Data ---
+logs/
+grafana-data/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+
+# --- Optional ---
+HELP.md
